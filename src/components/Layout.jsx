@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { useBooking } from "../context/BookingContext";
 import { Phone, Mail, MapPin, Menu, X, ArrowUpRight, MessageSquare } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import LogoEasterEgg from "./LogoEasterEgg";
+
 
 export default function Layout({ children }) {
   const { pathname } = useLocation();
@@ -103,6 +105,7 @@ export default function Layout({ children }) {
             className="flex items-center space-x-2.5 group"
             onMouseEnter={() => setMascotState("hover")}
           >
+            <LogoEasterEgg />
             <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-brand-teal to-brand-aqua text-white flex items-center justify-center font-black text-xl shadow-lg border border-white/20 transform group-hover:rotate-3 group-hover:scale-105 transition-all">
               B
             </div>
