@@ -5,6 +5,7 @@ An upgraded version of the existing [busybucket.in](https://busybucket.in) websi
 Rebuilt from a legacy WordPress/Elementor site into a fast, animated, WhatsApp-first booking experience — same real business data, dramatically upgraded design, performance, and UX.
 
 🔗 **Live/Original site:** [https://busybucket.in](https://busybucket.in)
+🔗 **Live/Redesigned site:** [https://busybucketkb.vercel.app](https://busybucketkb.vercel.app/)
 
 ---
 
