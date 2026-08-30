@@ -93,6 +93,24 @@ npm run build
 
 ---
 
+## 🧪 Testing & QA
+
+This project includes unit tests, end-to-end integration tests, accessibility audits, and Lighthouse performance checks.
+
+### 🏃 Running Tests
+
+| Test Suite | Command | Description |
+|---|---|---|
+| **Unit Tests** | `npm run test:unit` | Executes Vitest runner for code configurations and message generators. |
+| **E2E Integration** | `npm run test:e2e` | Runs Cypress headless tests validating customer paths. |
+| **Accessibility (A11y)** | `npm run test:a11y` | Runs axe-core E2E tests for WCAG accessibility compliance. |
+| **Performance (Lighthouse)** | `npm run test:perf` | Runs Lighthouse CI against local dev server. |
+
+### 📂 QA Manual Documents
+The manual test case tracker and bug logs are maintained in [qa_docs/](file:///c:/Users/kolli/OneDrive/Desktop/BusyBucket_Services/qa_docs) (specifically [BusyBucketKB_QA_Documentation (1).xlsx](file:///c:/Users/kolli/OneDrive/Desktop/BusyBucket_Services/qa_docs/BusyBucketKB_QA_Documentation%20(1).xlsx)).
+
+---
+
 ## ⚠️ Notes for contributors
 
 - This is an **upgrade/rebuild** of the live site at busybucket.in — all business data (stats, addresses, phone numbers, testimonials) is real and sourced directly from the business. Do not alter without confirming with the business owner.
