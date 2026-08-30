@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Cypress
+cypress/screenshots
+cypress/videos
+
+# Lighthouse
+.lighthouseci
+
